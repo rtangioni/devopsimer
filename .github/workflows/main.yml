@@ -30,8 +30,8 @@ jobs:
           file: ./webapp/Dockerfile
           push: true
           tags: |
-            fabricioveronez/imersao-gpt-webapp:v${{ github.run_number }}
-            fabricioveronez/imersao-gpt-webapp:latest
+            rtangioni/imersao-gpt-webapp:v${{ github.run_number }}
+            rtangioni/imersao-gpt-webapp:latest
   CD:
     runs-on: ubuntu-latest
     needs: [CI]

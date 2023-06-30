@@ -21,8 +21,8 @@ jobs:
           file: ./chatservice/Dockerfile
           push: true
           tags: |
-            fabricioveronez/imersao-chatservice:v${{ github.run_number }}
-            fabricioveronez/imersao-chatservice:latest
+            rtangioni/imersao-chatservice:v${{ github.run_number }}
+            rtangioni/imersao-chatservice:latest
       - name: Docker build webapp
         uses: docker/build-push-action@v4.1.1
         with: 

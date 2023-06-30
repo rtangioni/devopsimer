@@ -45,7 +45,7 @@ spec:
   ports:
   - name: http
     port: 80
-    targetPort: 8080
+    targetPort: 80
     #nodePort: 30001
   selector:
     app: keycloak
